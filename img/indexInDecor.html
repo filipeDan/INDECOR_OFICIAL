@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- Define o idioma da página como português do Brasil -->
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres para suportar acentuação -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Torna a página responsiva -->
+    <title>InDecor</title> <!-- Define o título da aba do navegador -->
+    
+    <!-- Importa a folha de estilos externa -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Importa a fonte Montserrat do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Seção principal com um banner de fundo -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1><span class="highlight">InDecor</span><br>UM EVENTO PARA REVOLUCIONAR A SUA CRIATIVIDADE</h1>
+            <p>Data do evento: <strong>Domingo, 28 de Maio, a partir das 14h</strong></p>
+        </div>
+        
+        <!-- Formulário de inscrição -->
+        <div class="form-container">
+            <h3>Preencha o formulário para receber os detalhes do evento</h3>
+            <form>
+                <input type="text" placeholder="Nome" required> <!-- Campo de nome -->
+                <input type="email" placeholder="E-mail" required> <!-- Campo de e-mail -->
+                <input type="tel" placeholder="Telefone" required> <!-- Campo de telefone -->
+                <select> <!-- Lista de opções para selecionar o interesse principal -->
+                    <option>Selecione seu principal interesse</option>
+                    <option>Decoração</option>
+                    <option>Design de interiores</option>
+                </select>
+                <button type="submit">QUERO ME INSCREVER</button> <!-- Botão de envio do formulário -->
+            </form>
+        </div>
+    </header>
+    
+    <!-- Seção sobre o aprendizado oferecido no evento -->
+    <section class="learning">
+        <h2>O que você vai aprender:</h2>
+        <div class="learning-items">
+            <div class="item">
+                <img src="img1.jpg" alt="Aprendizado 1"> <!-- Imagem ilustrativa -->
+                <p>Descrição do primeiro aprendizado.</p>
+            </div>
+            <div class="item">
+                <img src="img2.jpg" alt="Aprendizado 2"> <!-- Outra imagem -->
+                <p>Descrição do segundo aprendizado.</p>
+            </div>
+            <div class="item">
+                <img src="img3.jpg" alt="Aprendizado 3"> <!-- Outra imagem -->
+                <p>Descrição do terceiro aprendizado.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Seção de localização do evento -->
+    <section class="location">
+        <div class="location-content">
+            <h2><span class="highlight">LOCAL DE DESTAQUE</span></h2>
+            <p>O evento será realizado em um local especial para os amantes de Design de Interiores.</p>
+            <p><i class="bi bi-geo-alt"></i> Rua do evento, 1333 - Bairro <br> Abertura: 14h</p>
+        </div>
+    </section>
+    
+    <!-- Seção da galeria com exemplos de ambientes decorados -->
+    <section class="gallery">
+        <h2>Conheça os ambientes que você vai aprender a decorar</h2>
+        <img src="img4.jpg" alt="Ambiente decorado"> <!-- Imagem representando a decoração -->
+    </section>
+</body>
+</html>
